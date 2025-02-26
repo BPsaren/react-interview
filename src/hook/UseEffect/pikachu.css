@@ -1,0 +1,9 @@
+.pika{
+    height:140px;
+    width: 150px;
+    background-color: bisque;
+    align-items: center;
+    margin-left: 500px;
+    border: 2px solid red;
+    border-radius: 5px;
+}
