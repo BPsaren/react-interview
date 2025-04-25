@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+ import React, { useState } from 'react'
 
 const State = () => {
 
@@ -20,5 +20,5 @@ const State = () => {
     </div>
   )
 }
-
-export default State
+export default State;
+ 

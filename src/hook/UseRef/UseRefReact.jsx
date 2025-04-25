@@ -1,4 +1,4 @@
-import React from 'react'
+/* import React from 'react'
 
 
 ///uncontrollered form are used by the useRef hook
@@ -28,6 +28,43 @@ const UseRefReact = () => {
         </form>
       </div>
     </div>
+  )
+}
+
+export default UseRefReact;
+ */
+
+
+
+import React from 'react'
+ import { useRef } from 'react';
+
+ const UseRefReact = () => {
+
+  const username=useRef(null);
+  const password=useRef(null);
+
+  const handleSubmit =(event)=>{
+     event.preventDefault();
+     console.log(username.current.value, password.current.value)
+  }
+
+  return (
+    <div> 
+      
+      <form onSubmit={handleSubmit}>
+        <input type="text" id="username" ref={username}/> 
+        <br/>
+        <input type="text" id="password" ref={password}/> 
+
+        <button type="submit">Submit</button>
+    </form>
+    
+    </div>
+  
+
+
+
   )
 }
 
