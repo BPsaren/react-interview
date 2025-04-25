@@ -14,3 +14,12 @@ To get started with the materials in this repository, follow these steps:
 1. Clone the repository to your local machine:
    ```bash
    git clone https://github.com/your-username/react-interview.git
+
+   
+2. Navigate to the repository folder:
+   ```bash
+   cd react-interview
+
+3. Install the necessary dependencies for any example projects:
+   ```bash
+   npm install
