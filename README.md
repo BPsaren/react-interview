@@ -5,10 +5,7 @@ Welcome to the **React Interview Preparation Repository**! This repository is de
 ## 📋 What You'll Find in This Repository
 
 - **Interview Questions and Answers**: A curated list of commonly asked React interview questions with detailed explanations.
-- **Coding Challenges**: Practical coding exercises to sharpen your React skills.
-- **Hands-On Examples**: Sample projects and snippets that demonstrate React concepts in real-world scenarios.
-- **Best Practices**: Guidelines for writing clean, maintainable, and efficient React code.
-- **Advanced Topics**: Insights into advanced topics like React Hooks, Context API, Redux, and more.
+- **📚 Topics Covered**: React Component, Class Component, Functional Component, ReactEvent, Registration form Handle, Hook(useSate, useContext, useEffect, useRef), Redux, PropDrilling,
 
 ## 🛠️ Getting Started
 
